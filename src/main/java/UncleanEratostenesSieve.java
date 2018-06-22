@@ -22,7 +22,7 @@ public class UncleanEratostenesSieve {
                     isCpst[k] = true;
             }
         }
-        for (int m = upperBdSqRt; m <= upperBnd; m++)
+        for (int m = upperBdSqRt; m <= upperBnd; m++)//print numbers that were left untouched
             if (!isCpst[m])
                 System.out.print(m + " ");
 

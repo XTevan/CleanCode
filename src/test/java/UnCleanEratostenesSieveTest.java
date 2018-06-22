@@ -17,12 +17,12 @@ public class UnCleanEratostenesSieveTest {
     @Test
     public void testRunEratosthenesSieveReturn() {
         List<Integer> result = unCleanEratostenesSieve.runEratosthenesSieveReturn(FIFTY);
-        assertEquals(15,result.size());
+        assertEquals(15, result.size());
     }
 
     @Test
     public void testPrimesUnder10() {
         Integer[] result = unCleanEratostenesSieve.runEratosthenesSieveReturn(TWENTY).toArray(new Integer[]{});
-        assertArrayEquals(new Integer[]{2,3,5,7,11,13,17,19}, result);
+        assertArrayEquals(new Integer[]{2, 3, 5, 7, 11, 13, 17, 19}, result);
     }
 }

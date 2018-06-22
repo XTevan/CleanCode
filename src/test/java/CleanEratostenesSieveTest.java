@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class CleanEratostenesSieveTest {
 
     private static final int FIFTY = 50;
-    private static final int TEN = 10;
+    private static final int TWENTY = 20;
 
     private final CleanEratostenesSieve cleanEratostenesSieve = new CleanEratostenesSieve();
 
@@ -22,7 +22,7 @@ public class CleanEratostenesSieveTest {
 
     @Test
     public void testPrimesUnder10() {
-        Integer[] result = cleanEratostenesSieve.calculatePrimes(TEN).toArray(new Integer[]{});
-        assertArrayEquals(new Integer[]{2,3,5,7}, result);
+        Integer[] result = cleanEratostenesSieve.calculatePrimes(TWENTY).toArray(new Integer[]{});
+        assertArrayEquals(new Integer[]{2, 3, 5, 7, 11, 13, 17, 19}, result);
     }
 }
