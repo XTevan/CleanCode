@@ -1,0 +1,60 @@
+.DS_Store
+/.gradle/
+/build/
+bin/
+logs/
+.gradle
+/build/
+.npmrc
+out/*
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Cache of project
+.gradletasknamecache
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+/Servers
+.metadata/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+=======
+*.class
+
+# npm modules
+node_modules
+npm-debug.log
+
+env-vars.js
+
+# Sauce Labs / Selenium End-to-End Testing
+/new-e2e/build
+/new-e2e/config/cred.json
+/temp
+
+# jmeter
+jmeter/jmeter.log
+jmeter/report.csv
+jmeter/HTMLReport
+jmeter.log
