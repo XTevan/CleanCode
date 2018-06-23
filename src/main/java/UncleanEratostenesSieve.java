@@ -55,7 +55,7 @@ public class UncleanEratostenesSieve {
                     isCpst[k] = true;
             }
         }
-        for (int m = upperBdSqRt +1; m <= upperBnd; m++)
+        for (int m = upperBdSqRt; m <= upperBnd; m++)
             if (!isCpst[m]) {
                 System.out.print(m + " ");
                 primes.add(m);
