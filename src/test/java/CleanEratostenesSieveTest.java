@@ -21,7 +21,7 @@ public class CleanEratostenesSieveTest {
     }
 
     @Test
-    public void testPrimesUnder10() {
+    public void testPrimesUnder20() {
         Integer[] result = cleanEratostenesSieve.calculatePrimes(TWENTY).toArray(new Integer[]{});
         assertArrayEquals(new Integer[]{2, 3, 5, 7, 11, 13, 17, 19}, result);
     }
